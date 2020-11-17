@@ -8,22 +8,26 @@
       overflow-y: scroll;
     }
 
-    .gotop {
+    .fixed-btn {
       position: fixed;
-      bottom: 10%;
-      z-index: 100;
-      width: 2rem;
-      background: rgba(167, 5, 65, 0.38);
-      color: #fff;
-      padding: .5rem;
-      border-radius: .5rem;
-      font-size: .5rem;
-      text-decoration: none;
+      right: 1%;
+      bottom: 5%;
+      width: 40px;
+      border: 1px solid #eee;
+      background-color: rgb(176, 196, 222);
+      font-size: 24px;
+      z-index: 1040;
     }
 
-    .gotop:hover,
-    .gotop:active {
-      background: rgba(167, 5, 65, 0.56) ！important;
-      color: #fff;
-      text-decoration: none
+    .fixed-btn a {
+      width: 40px;
+      height: 43px;
+      text-decoration-line: none;
+      text-decoration-style: initial;
+      text-decoration-color: initial;
+      text-align: center;
+      cursor: pointer;
+      vertical-align: middle;
+      font-size: inherit;
+      text-rendering: auto;
     }
