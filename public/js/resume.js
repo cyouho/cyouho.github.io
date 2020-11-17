@@ -1,6 +1,7 @@
 $(function () {
-    $("#bulletin1").load("../my_resume/my_career.html")
-    $("#rule1").load("../my_resume/my_school.html")
+    $("#career").load("../my_resume/my_career.html")
+    $("#skill").load("../my_resume/my_skill.html")
+    $("#school").load("../my_resume/my_school.html")
 })
 
 $(function () {
