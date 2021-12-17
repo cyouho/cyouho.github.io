@@ -46,5 +46,10 @@
   }
   
   .label-default {
-      background-color: rgb(221, 92, 80);
+      background-color: #007bff;
+  }
+
+  .custom-row {
+    margin-left: 5%;
+    margin-right: 5%;
   }
